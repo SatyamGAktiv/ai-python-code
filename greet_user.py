@@ -1,2 +1,2 @@
-name = input("Please enter your name: ")
+name = input("Please enter your name: ").strip()
 print(f"Hello, {name}!")
